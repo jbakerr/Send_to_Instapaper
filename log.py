@@ -8,17 +8,8 @@ import csv
 def write_values(title, url, date, status):
 
     row = [title, url, date, status]
-    with open('log_file.csv', 'a') as csvFile:
+    with open('/Users/baker/Code/Python/gmail_instapaper/log_file.csv', 'a') as csvFile:
         writer = csv.writer(csvFile)
         writer.writerow(row)
 
     csvFile.close()
-
-
-
-# import datetime
-
-# now = datetime.date.today()
-
-
-# write_values("title", "url", "date", "status")

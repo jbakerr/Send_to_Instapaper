@@ -1,0 +1,5 @@
+credentials.py
+client_secret.json
+__pycache__/*
+credentials.json
+log_fie.csv

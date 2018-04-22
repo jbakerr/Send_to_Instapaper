@@ -1,11 +1,8 @@
 import csv
 from nyt_api import article_que
 import urllib.request
-import requests
 import urllib.parse
 import credentials
-import datetime
-from log import write_values
 
 
 # Insapaper API Request
@@ -36,4 +33,3 @@ with my_file:
     # writer.writeheader()
     for article in article_que:
         writer.writerow(article)
-
